@@ -1,0 +1,84 @@
+name: Stoicheia
+options:
+  bundleIdPrefix: com.utkarsh
+  deploymentTarget:
+    iOS: '27.0'
+  xcodeVersion: '27.0'
+  createIntermediateGroups: true
+packages:
+  LabKit:
+    path: ../LabKit
+  ChemistryCore:
+    path: .
+settings:
+  base:
+    SWIFT_VERSION: '6.0'
+    SWIFT_STRICT_CONCURRENCY: complete
+    MARKETING_VERSION: '1.0'
+    CURRENT_PROJECT_VERSION: '1'
+    DEVELOPMENT_TEAM: ""
+    CODE_SIGN_STYLE: Automatic
+targets:
+  Stoicheia:
+    type: application
+    platform: iOS
+    sources:
+      - path: App
+        excludes: ['**/*.md']
+    dependencies:
+      - package: LabKit
+        products: [LabKitCore, LabKitFeedback, LabKitUI]
+      - package: ChemistryCore
+        product: ChemistryCore
+    info:
+      path: App/Info.plist
+      properties:
+        CFBundleDisplayName: Stoicheia
+        UILaunchScreen: {}
+        UIUserInterfaceStyle: Dark
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: false
+        UISupportedInterfaceOrientations: [UIInterfaceOrientationPortrait]
+        ITSAppUsesNonExemptEncryption: false
+        LSApplicationCategoryType: public.app-category.education
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.utkarsh.stoicheia
+        TARGETED_DEVICE_FAMILY: '1'
+        SUPPORTS_MACCATALYST: NO
+        SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD: NO
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+  StoicheiaTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources: [AppTests]
+    dependencies:
+      - target: Stoicheia
+      - package: LabKit
+        products: [LabKitCore, LabKitFeedback]
+      - package: ChemistryCore
+        product: ChemistryCore
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+        PRODUCT_BUNDLE_IDENTIFIER: com.utkarsh.stoicheia.tests
+  StoicheiaUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources: [UITests]
+    dependencies:
+      - target: Stoicheia
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+        PRODUCT_BUNDLE_IDENTIFIER: com.utkarsh.stoicheia.uitests
+        TEST_TARGET_NAME: Stoicheia
+schemes:
+  Stoicheia:
+    build:
+      targets:
+        Stoicheia: all
+        StoicheiaTests: [test]
+        StoicheiaUITests: [test]
+    test:
+      targets: [StoicheiaTests, StoicheiaUITests]

@@ -1,0 +1,734 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02E52AB297C92EECADB42270 /* ToyStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608D6ED5AB4363D2748ADECA /* ToyStyle.swift */; };
+		0A9B63617B7B9F1663B8D631 /* BondsLabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42D164E3059CF5DF582D00A /* BondsLabView.swift */; };
+		0AC0E04E30380214089BF3E8 /* PeriodicLabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5021664BAABBA6217EC543B /* PeriodicLabView.swift */; };
+		14071C86013201BFE8B0AFE3 /* GreekModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68685FB6141912A4AFF38B6 /* GreekModelTests.swift */; };
+		167BFA07165049DBD075FF42 /* AtomLabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFFE25933CAC3A698AAE410 /* AtomLabView.swift */; };
+		17AD30755583E91CA8E02E8E /* StoicheiaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3B2CA78899EA130FAD7C5A /* StoicheiaApp.swift */; };
+		391B7ADFAFBBF3C31D9FD25B /* BondModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CAE6F2E98CDBD974228BE2 /* BondModels.swift */; };
+		3968C1C5480AD289BB70182F /* AtomOrbView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204B2FDA1253DDA1D9812358 /* AtomOrbView.swift */; };
+		3A947F28111CD0709E9101DC /* PeriodicPropertyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451796361ACA34FBE3A78558 /* PeriodicPropertyTests.swift */; };
+		438BED1200675190CDDD5EAD /* LabSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10E46CA18217783C3CA510D /* LabSession.swift */; };
+		54C35C38858CFEF90C954D93 /* BondModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EACCD00EC48ADDFE58843FB /* BondModelTests.swift */; };
+		5C8448751ED6C7DB34DAAD28 /* LabKitFeedback in Frameworks */ = {isa = PBXBuildFile; productRef = 738EAF22FFE494402D0C213D /* LabKitFeedback */; };
+		6407ED513714EC78FA0D6169 /* BondReactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D766E6C79D1646874B3C748C /* BondReactionView.swift */; };
+		747B09FED8F556603A9E8F9F /* GreekToyStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE82CFAC4A37CC55424DE0BE /* GreekToyStage.swift */; };
+		7B65227629026162EF290522 /* LabSessionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B914609A20CFC3E928BD5B1 /* LabSessionTests.swift */; };
+		912C809B5C338EAE19603BE1 /* GreekLabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3EE9656D5120FA1ECF1D686 /* GreekLabView.swift */; };
+		93C74B8DEDC26B1D62DC9D97 /* LabKitFeedback in Frameworks */ = {isa = PBXBuildFile; productRef = 03271C1FB2D4B3FC0517BEAB /* LabKitFeedback */; };
+		95B9A73F190070C6D34DCF36 /* ChemistryCore in Frameworks */ = {isa = PBXBuildFile; productRef = B2947F9E302D6D308440B7FD /* ChemistryCore */; };
+		961BF3C2CD1D5FC1CF535D69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3A65D2F44802DF3D315658E /* Assets.xcassets */; };
+		A8587CD81ADCB4D17F328913 /* BondLifeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D958274A54F23C43569353A /* BondLifeView.swift */; };
+		B3F427BD7C3326C264A8471B /* LabKitCore in Frameworks */ = {isa = PBXBuildFile; productRef = F81066D405D71380D6377083 /* LabKitCore */; };
+		B944A3C3046C926217D48BE1 /* GreekMotionClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1645C1BE647F414EF181B6B1 /* GreekMotionClock.swift */; };
+		BB23346E2491AE8555829A81 /* OrbitalCloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8C8804B929F7D6A37188E6 /* OrbitalCloud.swift */; };
+		BE9914C8FDF17B493868AF5F /* GuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167551AC0983F9154B519B2D /* GuideView.swift */; };
+		C7DE02D98ED83237DB9118D6 /* GreekCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B474A5D8D415879BCF48BD1 /* GreekCatalog.swift */; };
+		CAD90AD4D191B6109CAB11A0 /* LabKitCore in Frameworks */ = {isa = PBXBuildFile; productRef = B0D60FD33F66FEE01F69131E /* LabKitCore */; };
+		D86DEFAAA03212EBA813E920 /* ChemistryCore in Frameworks */ = {isa = PBXBuildFile; productRef = 6D3B6C86589A15F4A3449BA8 /* ChemistryCore */; };
+		E440D88ECBF9BE2705523950 /* GreekMatterDiagrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072366440A864714D439E490 /* GreekMatterDiagrams.swift */; };
+		E9DB9F10B98738D48DDBD62C /* LabKitUI in Frameworks */ = {isa = PBXBuildFile; productRef = B733F195EE907A659B0BA6F0 /* LabKitUI */; };
+		EBDDD324026BCBE48ADAC8B6 /* GreekWaveDiagrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BFCCADDC2FBADEDDA679FA /* GreekWaveDiagrams.swift */; };
+		EF96D6ABB582BE3EEEB74971 /* BondVisuals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270D171D21004F3F0B98B230 /* BondVisuals.swift */; };
+		FC951F4E7DC6BC8C50B23C63 /* PlaygroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83688F214049ED228F7BCB45 /* PlaygroundTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		91A5E60F4994FE1AC1253478 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD698090ADB52190AD99983A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22F035D21F3B4F80D47EFDF6;
+			remoteInfo = Stoicheia;
+		};
+		A56C1E2B94B02A117DFF6E87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD698090ADB52190AD99983A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22F035D21F3B4F80D47EFDF6;
+			remoteInfo = Stoicheia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		072366440A864714D439E490 /* GreekMatterDiagrams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreekMatterDiagrams.swift; sourceTree = "<group>"; };
+		0B914609A20CFC3E928BD5B1 /* LabSessionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabSessionTests.swift; sourceTree = "<group>"; };
+		1645C1BE647F414EF181B6B1 /* GreekMotionClock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreekMotionClock.swift; sourceTree = "<group>"; };
+		167551AC0983F9154B519B2D /* GuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideView.swift; sourceTree = "<group>"; };
+		1809B2EDF32B19A57BC8803C /* Stoicheia.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Stoicheia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1848E1EF66F549B7691E608A /* StoicheiaUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = StoicheiaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B474A5D8D415879BCF48BD1 /* GreekCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreekCatalog.swift; sourceTree = "<group>"; };
+		204B2FDA1253DDA1D9812358 /* AtomOrbView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtomOrbView.swift; sourceTree = "<group>"; };
+		270D171D21004F3F0B98B230 /* BondVisuals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BondVisuals.swift; sourceTree = "<group>"; };
+		2D44BC1F502F5D238A8E7CBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3E2F382977F7CD34EB096ACA /* Stoicheia */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Stoicheia; path = .; sourceTree = SOURCE_ROOT; };
+		3E8C8804B929F7D6A37188E6 /* OrbitalCloud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrbitalCloud.swift; sourceTree = "<group>"; };
+		3EACCD00EC48ADDFE58843FB /* BondModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BondModelTests.swift; sourceTree = "<group>"; };
+		451796361ACA34FBE3A78558 /* PeriodicPropertyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodicPropertyTests.swift; sourceTree = "<group>"; };
+		608D6ED5AB4363D2748ADECA /* ToyStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToyStyle.swift; sourceTree = "<group>"; };
+		83688F214049ED228F7BCB45 /* PlaygroundTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundTests.swift; sourceTree = "<group>"; };
+		8D958274A54F23C43569353A /* BondLifeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BondLifeView.swift; sourceTree = "<group>"; };
+		97CAE6F2E98CDBD974228BE2 /* BondModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BondModels.swift; sourceTree = "<group>"; };
+		A5021664BAABBA6217EC543B /* PeriodicLabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodicLabView.swift; sourceTree = "<group>"; };
+		A68685FB6141912A4AFF38B6 /* GreekModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreekModelTests.swift; sourceTree = "<group>"; };
+		B3A65D2F44802DF3D315658E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF3B2CA78899EA130FAD7C5A /* StoicheiaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoicheiaApp.swift; sourceTree = "<group>"; };
+		C10E46CA18217783C3CA510D /* LabSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabSession.swift; sourceTree = "<group>"; };
+		C502D7CB6B71D5DC43E2CE1D /* LabKit */ = {isa = PBXFileReference; lastKnownFileType = folder; name = LabKit; path = ../LabKit; sourceTree = SOURCE_ROOT; };
+		D766E6C79D1646874B3C748C /* BondReactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BondReactionView.swift; sourceTree = "<group>"; };
+		E3EE9656D5120FA1ECF1D686 /* GreekLabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreekLabView.swift; sourceTree = "<group>"; };
+		E42D164E3059CF5DF582D00A /* BondsLabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BondsLabView.swift; sourceTree = "<group>"; };
+		E6BFCCADDC2FBADEDDA679FA /* GreekWaveDiagrams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreekWaveDiagrams.swift; sourceTree = "<group>"; };
+		ECBC50DB03442741058243D5 /* StoicheiaTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = StoicheiaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE82CFAC4A37CC55424DE0BE /* GreekToyStage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreekToyStage.swift; sourceTree = "<group>"; };
+		FEFFE25933CAC3A698AAE410 /* AtomLabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtomLabView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A10876EDCA6E31CC000FC62D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD90AD4D191B6109CAB11A0 /* LabKitCore in Frameworks */,
+				5C8448751ED6C7DB34DAAD28 /* LabKitFeedback in Frameworks */,
+				E9DB9F10B98738D48DDBD62C /* LabKitUI in Frameworks */,
+				95B9A73F190070C6D34DCF36 /* ChemistryCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5C49FE74C7BED30101CAB96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3F427BD7C3326C264A8471B /* LabKitCore in Frameworks */,
+				93C74B8DEDC26B1D62DC9D97 /* LabKitFeedback in Frameworks */,
+				D86DEFAAA03212EBA813E920 /* ChemistryCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4989DBC9C0236DEB33EE8DD6 = {
+			isa = PBXGroup;
+			children = (
+				6C3D9AD0B6F635246A39DFCE /* App */,
+				A89A38F380707DEF32FEA56B /* AppTests */,
+				F787B624ACB5D575EA355157 /* Packages */,
+				9347A4DCA1EA5258F96868E4 /* UITests */,
+				8A37045FFED6D88A92B75469 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F1963705B37D9735C5134E8 /* Atom */ = {
+			isa = PBXGroup;
+			children = (
+				FEFFE25933CAC3A698AAE410 /* AtomLabView.swift */,
+				204B2FDA1253DDA1D9812358 /* AtomOrbView.swift */,
+				3E8C8804B929F7D6A37188E6 /* OrbitalCloud.swift */,
+			);
+			path = Atom;
+			sourceTree = "<group>";
+		};
+		632B53B703BB27C70EF4995B /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				A5021664BAABBA6217EC543B /* PeriodicLabView.swift */,
+			);
+			path = Table;
+			sourceTree = "<group>";
+		};
+		6C3D9AD0B6F635246A39DFCE /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B3A65D2F44802DF3D315658E /* Assets.xcassets */,
+				167551AC0983F9154B519B2D /* GuideView.swift */,
+				2D44BC1F502F5D238A8E7CBC /* Info.plist */,
+				C10E46CA18217783C3CA510D /* LabSession.swift */,
+				BF3B2CA78899EA130FAD7C5A /* StoicheiaApp.swift */,
+				608D6ED5AB4363D2748ADECA /* ToyStyle.swift */,
+				5F1963705B37D9735C5134E8 /* Atom */,
+				FAA72D11E18A91A3C999CC9D /* Bonds */,
+				AF33BF0EC5E3C205373B8381 /* Greek */,
+				632B53B703BB27C70EF4995B /* Table */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		8A37045FFED6D88A92B75469 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1809B2EDF32B19A57BC8803C /* Stoicheia.app */,
+				ECBC50DB03442741058243D5 /* StoicheiaTests.xctest */,
+				1848E1EF66F549B7691E608A /* StoicheiaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9347A4DCA1EA5258F96868E4 /* UITests */ = {
+			isa = PBXGroup;
+			children = (
+				83688F214049ED228F7BCB45 /* PlaygroundTests.swift */,
+			);
+			path = UITests;
+			sourceTree = "<group>";
+		};
+		A89A38F380707DEF32FEA56B /* AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				3EACCD00EC48ADDFE58843FB /* BondModelTests.swift */,
+				A68685FB6141912A4AFF38B6 /* GreekModelTests.swift */,
+				0B914609A20CFC3E928BD5B1 /* LabSessionTests.swift */,
+				451796361ACA34FBE3A78558 /* PeriodicPropertyTests.swift */,
+			);
+			path = AppTests;
+			sourceTree = "<group>";
+		};
+		AF33BF0EC5E3C205373B8381 /* Greek */ = {
+			isa = PBXGroup;
+			children = (
+				1B474A5D8D415879BCF48BD1 /* GreekCatalog.swift */,
+				E3EE9656D5120FA1ECF1D686 /* GreekLabView.swift */,
+				072366440A864714D439E490 /* GreekMatterDiagrams.swift */,
+				1645C1BE647F414EF181B6B1 /* GreekMotionClock.swift */,
+				EE82CFAC4A37CC55424DE0BE /* GreekToyStage.swift */,
+				E6BFCCADDC2FBADEDDA679FA /* GreekWaveDiagrams.swift */,
+			);
+			path = Greek;
+			sourceTree = "<group>";
+		};
+		F787B624ACB5D575EA355157 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				C502D7CB6B71D5DC43E2CE1D /* LabKit */,
+				3E2F382977F7CD34EB096ACA /* Stoicheia */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		FAA72D11E18A91A3C999CC9D /* Bonds */ = {
+			isa = PBXGroup;
+			children = (
+				8D958274A54F23C43569353A /* BondLifeView.swift */,
+				97CAE6F2E98CDBD974228BE2 /* BondModels.swift */,
+				D766E6C79D1646874B3C748C /* BondReactionView.swift */,
+				E42D164E3059CF5DF582D00A /* BondsLabView.swift */,
+				270D171D21004F3F0B98B230 /* BondVisuals.swift */,
+			);
+			path = Bonds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22F035D21F3B4F80D47EFDF6 /* Stoicheia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03FA00331C87AB15D0DD9E03 /* Build configuration list for PBXNativeTarget "Stoicheia" */;
+			buildPhases = (
+				B66B38FFFBA846FEAEB5A389 /* Sources */,
+				C6F15181AC9DD4E63D6BAF44 /* Resources */,
+				A10876EDCA6E31CC000FC62D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stoicheia;
+			packageProductDependencies = (
+				B0D60FD33F66FEE01F69131E /* LabKitCore */,
+				738EAF22FFE494402D0C213D /* LabKitFeedback */,
+				B733F195EE907A659B0BA6F0 /* LabKitUI */,
+				B2947F9E302D6D308440B7FD /* ChemistryCore */,
+			);
+			productName = Stoicheia;
+			productReference = 1809B2EDF32B19A57BC8803C /* Stoicheia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		495E65A6651E679045F1140E /* StoicheiaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC5DB11C1BCA8C4820C8ACF5 /* Build configuration list for PBXNativeTarget "StoicheiaTests" */;
+			buildPhases = (
+				0B27CB389CA2B5D66E95F128 /* Sources */,
+				B5C49FE74C7BED30101CAB96 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC347089B1F853945D1D0682 /* PBXTargetDependency */,
+			);
+			name = StoicheiaTests;
+			packageProductDependencies = (
+				F81066D405D71380D6377083 /* LabKitCore */,
+				03271C1FB2D4B3FC0517BEAB /* LabKitFeedback */,
+				6D3B6C86589A15F4A3449BA8 /* ChemistryCore */,
+			);
+			productName = StoicheiaTests;
+			productReference = ECBC50DB03442741058243D5 /* StoicheiaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		914B1EBD61FB9655BFEA47AD /* StoicheiaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B739D52215F2B609F77C08EF /* Build configuration list for PBXNativeTarget "StoicheiaUITests" */;
+			buildPhases = (
+				BB1727B24D060526974275A7 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05090B3075029822A5D3A90E /* PBXTargetDependency */,
+			);
+			name = StoicheiaUITests;
+			packageProductDependencies = (
+			);
+			productName = StoicheiaUITests;
+			productReference = 1848E1EF66F549B7691E608A /* StoicheiaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD698090ADB52190AD99983A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					22F035D21F3B4F80D47EFDF6 = {
+
+						ProvisioningStyle = Automatic;
+					};
+					495E65A6651E679045F1140E = {
+
+						ProvisioningStyle = Automatic;
+					};
+					914B1EBD61FB9655BFEA47AD = {
+
+						ProvisioningStyle = Automatic;
+						TestTargetID = 22F035D21F3B4F80D47EFDF6;
+					};
+				};
+			};
+			buildConfigurationList = DAD93B34886786025BBA170A /* Build configuration list for PBXProject "Stoicheia" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 4989DBC9C0236DEB33EE8DD6;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				7AF2992D36977CC8A9C0AA33 /* XCLocalSwiftPackageReference "." */,
+				4C06854B3917308EC74A538A /* XCLocalSwiftPackageReference "../LabKit" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8A37045FFED6D88A92B75469 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22F035D21F3B4F80D47EFDF6 /* Stoicheia */,
+				495E65A6651E679045F1140E /* StoicheiaTests */,
+				914B1EBD61FB9655BFEA47AD /* StoicheiaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6F15181AC9DD4E63D6BAF44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				961BF3C2CD1D5FC1CF535D69 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B27CB389CA2B5D66E95F128 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54C35C38858CFEF90C954D93 /* BondModelTests.swift in Sources */,
+				14071C86013201BFE8B0AFE3 /* GreekModelTests.swift in Sources */,
+				7B65227629026162EF290522 /* LabSessionTests.swift in Sources */,
+				3A947F28111CD0709E9101DC /* PeriodicPropertyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B66B38FFFBA846FEAEB5A389 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				167BFA07165049DBD075FF42 /* AtomLabView.swift in Sources */,
+				3968C1C5480AD289BB70182F /* AtomOrbView.swift in Sources */,
+				A8587CD81ADCB4D17F328913 /* BondLifeView.swift in Sources */,
+				391B7ADFAFBBF3C31D9FD25B /* BondModels.swift in Sources */,
+				6407ED513714EC78FA0D6169 /* BondReactionView.swift in Sources */,
+				EF96D6ABB582BE3EEEB74971 /* BondVisuals.swift in Sources */,
+				0A9B63617B7B9F1663B8D631 /* BondsLabView.swift in Sources */,
+				C7DE02D98ED83237DB9118D6 /* GreekCatalog.swift in Sources */,
+				912C809B5C338EAE19603BE1 /* GreekLabView.swift in Sources */,
+				E440D88ECBF9BE2705523950 /* GreekMatterDiagrams.swift in Sources */,
+				B944A3C3046C926217D48BE1 /* GreekMotionClock.swift in Sources */,
+				747B09FED8F556603A9E8F9F /* GreekToyStage.swift in Sources */,
+				EBDDD324026BCBE48ADAC8B6 /* GreekWaveDiagrams.swift in Sources */,
+				BE9914C8FDF17B493868AF5F /* GuideView.swift in Sources */,
+				438BED1200675190CDDD5EAD /* LabSession.swift in Sources */,
+				BB23346E2491AE8555829A81 /* OrbitalCloud.swift in Sources */,
+				0AC0E04E30380214089BF3E8 /* PeriodicLabView.swift in Sources */,
+				17AD30755583E91CA8E02E8E /* StoicheiaApp.swift in Sources */,
+				02E52AB297C92EECADB42270 /* ToyStyle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB1727B24D060526974275A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC951F4E7DC6BC8C50B23C63 /* PlaygroundTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05090B3075029822A5D3A90E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22F035D21F3B4F80D47EFDF6 /* Stoicheia */;
+			targetProxy = A56C1E2B94B02A117DFF6E87 /* PBXContainerItemProxy */;
+		};
+		CC347089B1F853945D1D0682 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22F035D21F3B4F80D47EFDF6 /* Stoicheia */;
+			targetProxy = 91A5E60F4994FE1AC1253478 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02A7C469B438FD137BFC654D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.utkarsh.stoicheia.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stoicheia.app/Stoicheia";
+			};
+			name = Release;
+		};
+		0801CBF4AD1D3D2938F0FDAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		164E4A49ACBD28D5CD472C64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.utkarsh.stoicheia.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Stoicheia;
+			};
+			name = Release;
+		};
+		1A55860E0E85C734B428C80E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.utkarsh.stoicheia.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Stoicheia;
+			};
+			name = Debug;
+		};
+		53536F963087783A69A7259B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.utkarsh.stoicheia.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stoicheia.app/Stoicheia";
+			};
+			name = Debug;
+		};
+		BDFB2CD982BCA219F62427D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.utkarsh.stoicheia;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DACAAB41B93590EB7AA63576 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		E7C8F88B06F98B4BC540E1B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.utkarsh.stoicheia;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03FA00331C87AB15D0DD9E03 /* Build configuration list for PBXNativeTarget "Stoicheia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDFB2CD982BCA219F62427D3 /* Debug */,
+				E7C8F88B06F98B4BC540E1B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B739D52215F2B609F77C08EF /* Build configuration list for PBXNativeTarget "StoicheiaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A55860E0E85C734B428C80E /* Debug */,
+				164E4A49ACBD28D5CD472C64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DAD93B34886786025BBA170A /* Build configuration list for PBXProject "Stoicheia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0801CBF4AD1D3D2938F0FDAD /* Debug */,
+				DACAAB41B93590EB7AA63576 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DC5DB11C1BCA8C4820C8ACF5 /* Build configuration list for PBXNativeTarget "StoicheiaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53536F963087783A69A7259B /* Debug */,
+				02A7C469B438FD137BFC654D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		4C06854B3917308EC74A538A /* XCLocalSwiftPackageReference "../LabKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../LabKit;
+		};
+		7AF2992D36977CC8A9C0AA33 /* XCLocalSwiftPackageReference "." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = .;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		03271C1FB2D4B3FC0517BEAB /* LabKitFeedback */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = LabKitFeedback;
+		};
+		6D3B6C86589A15F4A3449BA8 /* ChemistryCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ChemistryCore;
+		};
+		738EAF22FFE494402D0C213D /* LabKitFeedback */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = LabKitFeedback;
+		};
+		B0D60FD33F66FEE01F69131E /* LabKitCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = LabKitCore;
+		};
+		B2947F9E302D6D308440B7FD /* ChemistryCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ChemistryCore;
+		};
+		B733F195EE907A659B0BA6F0 /* LabKitUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = LabKitUI;
+		};
+		F81066D405D71380D6377083 /* LabKitCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = LabKitCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = FD698090ADB52190AD99983A /* Project object */;
+}
